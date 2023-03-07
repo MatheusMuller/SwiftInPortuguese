@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F02574E29B6B89800C042FE /* IntroData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F02574D29B6B89800C042FE /* IntroData.json */; };
+		2F02575029B6B8B300C042FE /* IntroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F02574F29B6B8B300C042FE /* IntroModel.swift */; };
+		2F02575229B6BAED00C042FE /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F02575129B6BAED00C042FE /* IntroView.swift */; };
+		2F02575429B6BBE000C042FE /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F02575329B6BBE000C042FE /* Bundle-Decodable.swift */; };
 		2F2CB3CB29AECEAE002AABB5 /* SwiftInPortugueseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2CB3CA29AECEAE002AABB5 /* SwiftInPortugueseApp.swift */; };
 		2F2CB3CD29AECEAE002AABB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2CB3CC29AECEAE002AABB5 /* ContentView.swift */; };
 		2F2CB3CF29AECEAF002AABB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2CB3CE29AECEAF002AABB5 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F02574D29B6B89800C042FE /* IntroData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IntroData.json; sourceTree = "<group>"; };
+		2F02574F29B6B8B300C042FE /* IntroModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroModel.swift; sourceTree = "<group>"; };
+		2F02575129B6BAED00C042FE /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		2F02575329B6BBE000C042FE /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		2F2CB3C729AECEAE002AABB5 /* SwiftInPortuguese.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftInPortuguese.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2CB3CA29AECEAE002AABB5 /* SwiftInPortugueseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInPortugueseApp.swift; sourceTree = "<group>"; };
 		2F2CB3CC29AECEAE002AABB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F02574829B6AE5D00C042FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2F02575129B6BAED00C042FE /* IntroView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2F02574929B6AE6C00C042FE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2F02574D29B6B89800C042FE /* IntroData.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		2F02574A29B6AEF800C042FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F02574F29B6B8B300C042FE /* IntroModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2F2CB3BE29AECEAE002AABB5 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +83,12 @@
 		2F2CB3C929AECEAE002AABB5 /* SwiftInPortuguese */ = {
 			isa = PBXGroup;
 			children = (
+				2F02574A29B6AEF800C042FE /* Model */,
+				2F02574929B6AE6C00C042FE /* Data */,
+				2F02574829B6AE5D00C042FE /* View */,
 				2F2CB3CA29AECEAE002AABB5 /* SwiftInPortugueseApp.swift */,
 				2F2CB3CC29AECEAE002AABB5 /* ContentView.swift */,
+				2F02575329B6BBE000C042FE /* Bundle-Decodable.swift */,
 				2F2CB3CE29AECEAF002AABB5 /* Assets.xcassets */,
 				2F2CB3D029AECEAF002AABB5 /* Preview Content */,
 			);
@@ -127,6 +163,7 @@
 			files = (
 				2F2CB3D229AECEAF002AABB5 /* Preview Assets.xcassets in Resources */,
 				2F2CB3CF29AECEAF002AABB5 /* Assets.xcassets in Resources */,
+				2F02574E29B6B89800C042FE /* IntroData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F2CB3CD29AECEAE002AABB5 /* ContentView.swift in Sources */,
+				2F02575229B6BAED00C042FE /* IntroView.swift in Sources */,
+				2F02575429B6BBE000C042FE /* Bundle-Decodable.swift in Sources */,
+				2F02575029B6B8B300C042FE /* IntroModel.swift in Sources */,
 				2F2CB3CB29AECEAE002AABB5 /* SwiftInPortugueseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
