@@ -12,4 +12,5 @@ struct IntroModel: Codable, Identifiable {
     let description1: String
     let description2: String
     let description3: String
+    let description4: String
 }

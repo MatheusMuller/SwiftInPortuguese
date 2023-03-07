@@ -7,23 +7,23 @@
 
 import SwiftUI
 
-struct Casoelse: View {
+struct elseView: View {
     var body: some View {
         Text("Teste123")
     }
 }
 
 struct Teste: View {
-    let topic: String
-    
     var body: some View {
-        Text(topic)
+        Text("A View não foi carregada corretamente!")
     }
 }
 
 struct ContentView: View {
     @State private var topics = ["Introdução", "Variáveis", "Constantes", "Strings", "Números", "Booleans", "Arrays", "Dicionários", "Sets", "Enums", "Tipos de Dados", "IF", "Switch", "Operadores Ternários", "Loops"]
     @State private var searchText = ""
+    
+    let introContent: [String: IntroModel] = Bundle.main.decode("IntroData.json")
     
     var body: some View {
         NavigationView {
@@ -40,10 +40,12 @@ struct ContentView: View {
                         ForEach(topics, id: \.self) { topic in
                             NavigationLink(destination: {
                                 VStack {
-                                    if topic == "Loops" {
-                                        Teste(topic: topic)
-                                    } else {
-                                        Casoelse()
+                                    switch topic {
+                                    case "Introdução":
+                                        IntroView(introContent: introContent["intro"]!)
+                                        
+                                    default:
+                                        Teste()
                                     }
                                 }
                             }, label: {
