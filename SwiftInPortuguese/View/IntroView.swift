@@ -51,6 +51,7 @@ struct IntroView: View {
                         .padding()
                     
                     Text("Primeiro, instale o Xcode diretamente pela App Store do Mac.")
+                        .padding()
                     
                     Image("installXcode")
                         .resizable()
@@ -58,7 +59,35 @@ struct IntroView: View {
                     
                     Spacer(minLength: 30)
                     
-                    Text("Execute o Xcode. Na tela inicial selecione: Create a new project.")
+                    Text(introContent.description5)
+                        .padding()
+                    
+                    Image("xcodeNewProj")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    Spacer(minLength: 30)
+                    
+                    Image("xcodeAppSelect")
+                        .resizable()
+                        .scaledToFit()
+                }
+                
+                Group {
+                    Spacer(minLength: 30)
+                    
+                    Text(introContent.description6)
+                        .padding()
+                    
+                    Image("xcodeProjName")
+                        .resizable()
+                        .scaledToFit()
+                    
+                    Spacer(minLength: 30)
+                    
+                    Text(introContent.description7)
+                        .font(.title3)
+                        .padding()
                 }
             }
         }
