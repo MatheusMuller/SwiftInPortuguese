@@ -7,12 +7,6 @@
 
 import SwiftUI
 
-struct elseView: View {
-    var body: some View {
-        Text("Teste123")
-    }
-}
-
 struct Teste: View {
     var body: some View {
         Text("A View não foi carregada corretamente!")
