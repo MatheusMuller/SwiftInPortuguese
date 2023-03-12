@@ -14,7 +14,7 @@ struct IntroView: View {
         ScrollView {
             VStack {
                 Group {
-                    Text("Introdução")
+                    Text(introContent.id)
                         .font(.title.bold())
                     
                     Text(introContent.description1)

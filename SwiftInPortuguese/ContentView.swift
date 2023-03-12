@@ -18,6 +18,7 @@ struct ContentView: View {
     @State private var searchText = ""
     
     let introContent: [String: IntroModel] = Bundle.main.decode("IntroData.json")
+    let variableContent: [String: VariableModel] = Bundle.main.decode("VariableData.json")
     
     var body: some View {
         NavigationView {
@@ -37,6 +38,9 @@ struct ContentView: View {
                                     switch topic {
                                     case "Introdução":
                                         IntroView(introContent: introContent["intro"]!)
+                                        
+                                    case "Variáveis":
+                                        VariableView(variableCont: variableContent["variable"]!)
                                         
                                     default:
                                         Teste()
