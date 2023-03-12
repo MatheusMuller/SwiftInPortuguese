@@ -1,9 +1,9 @@
 {
     "variable": {
         "id": "Variáveis",
-        "description1": "Teste 1",
-        "description2": "Teste 2",
-        "description3": "Teste 3",
+        "description1": "Sempre que você for construir seus aplicativos, você vai precisar armazenar alguns dados, sejam eles importantes ou não. Pode ser o nome e e-mail do usuário que está se cadastrando, ou talvez um cálculo importante para que possa ser reutilizado posteriormente ou apenas apresentado na tela.",
+        "description2": "É possível armazenar dados no Swift de duas maneiras diferentes, dependendo se você deseja alterar esses dados depois ou não. A primeira opção é a Variável. Ela significa que seu valor pode variar, ou seja, pode mudar conforme o programa é executado. Abaixo um exemplo de como declarar uma variável:",
+        "description3": "O código acima cria uma variável chamada 'nome', e por ser uma Variável, podemos alterar seu valor quando quisermos. O prefixo 'var' na frente da variável significa que estamos a declarando e posteriormente se quiser alterar seu valor, apenas coloque o nome da variável recebendo seu novo valor, sem a necessidade de escrever 'var' novamente. Uma dica legal é dar um nome descritivo à sua variável, você pode dar o nome que quiser, mas é sempre legal colocar um bom nome para que você se lembre o que ela faz no decorrer do desenvolvimento.",
         "description4": "Teste 4",
         "description5": "Teste 5",
         "description6": "Teste 6",

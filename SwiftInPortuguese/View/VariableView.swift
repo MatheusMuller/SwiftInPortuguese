@@ -16,9 +16,22 @@ struct VariableView: View {
                 Group {
                     Text(variableCont.id)
                         .font(.title.bold())
+                    
+                    Text(variableCont.description1)
+                        .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Text(variableCont.description2)
+                        .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Image("varDeclaration")
+                        .resizable()
+                        .scaledToFit()
                 }
             }
         }
+        .background(Color(red: 0.9, green: 0.9, blue: 0.9))
     }
 }
 

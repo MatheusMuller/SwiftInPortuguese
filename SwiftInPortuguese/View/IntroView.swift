@@ -19,6 +19,7 @@ struct IntroView: View {
                     
                     Text(introContent.description1)
                         .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     
                     Spacer(minLength: 50)
                     
@@ -31,6 +32,7 @@ struct IntroView: View {
                     
                     Text(introContent.description2)
                         .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     
                     Spacer(minLength: 50)
                     
@@ -39,6 +41,7 @@ struct IntroView: View {
                     
                     Text(introContent.description3)
                         .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
                 }
                 
                 Group {
@@ -49,9 +52,11 @@ struct IntroView: View {
                     
                     Text(introContent.description4)
                         .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     
                     Text("Primeiro, instale o Xcode diretamente pela App Store do Mac.")
                         .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     
                     Image("installXcode")
                         .resizable()
@@ -61,6 +66,7 @@ struct IntroView: View {
                     
                     Text(introContent.description5)
                         .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     
                     Image("xcodeNewProj")
                         .resizable()
@@ -78,6 +84,7 @@ struct IntroView: View {
                     
                     Text(introContent.description6)
                         .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     
                     Image("xcodeProjName")
                         .resizable()
@@ -88,6 +95,7 @@ struct IntroView: View {
                     Text(introContent.description7)
                         .font(.title3)
                         .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
                 }
             }
         }
