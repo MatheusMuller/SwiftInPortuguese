@@ -28,6 +28,14 @@ struct VariableView: View {
                     Image("varDeclaration")
                         .resizable()
                         .scaledToFit()
+                    
+                    Text(variableCont.description3)
+                        .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Image("varChanging")
+                        .resizable()
+                        .scaledToFit()
                 }
             }
         }
