@@ -36,6 +36,27 @@ struct VariableView: View {
                     Image("varChanging")
                         .resizable()
                         .scaledToFit()
+                    
+                    Spacer(minLength: 50)
+                    
+                    Text("Constantes")
+                        .font(.title.bold())
+                    
+                    Text(variableCont.description4)
+                        .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Image("letConstant")
+                        .resizable()
+                        .scaledToFit()
+                }
+                
+                Group {
+                    Spacer(minLength: 30)
+                    
+                    Text(variableCont.description5)
+                        .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
                 }
             }
         }

@@ -4,8 +4,8 @@
         "description1": "Sempre que você for construir seus aplicativos, você vai precisar armazenar alguns dados, sejam eles importantes ou não. Pode ser o nome e e-mail do usuário que está se cadastrando, ou talvez um cálculo importante para que possa ser reutilizado posteriormente ou apenas apresentado na tela.",
         "description2": "É possível armazenar dados no Swift de duas maneiras diferentes, dependendo se você deseja alterar esses dados depois ou não. A primeira opção é a Variável. Ela significa que seu valor pode variar, ou seja, pode mudar conforme o programa é executado. Abaixo um exemplo de como declarar uma variável:",
         "description3": "O código acima cria uma variável chamada 'nome', e por ser uma Variável, podemos alterar seu valor quando quisermos. O prefixo 'var' na frente da variável significa que estamos a declarando e posteriormente se quiser alterar seu valor, apenas coloque o nome da variável recebendo seu novo valor, sem a necessidade de escrever 'var' novamente. Uma dica legal é dar um nome descritivo à sua variável, você pode dar o nome que quiser, mas é sempre legal colocar um bom nome para que você se lembre o que ela faz no decorrer do desenvolvimento.",
-        "description4": "Teste 4",
-        "description5": "Teste 5",
+        "description4": "Agora, se você quer criar uma variável e sabe que seu valor nunca vai mudar, é aconselhável utilizar uma Constante. Sua declaração é bem semelhante a de uma Variável, mas ao invés de usar 'var', usamos 'let'. E é importante ressaltar que após receber seu valor inicial, não há como alterar o valor dessa Constante posteriormente, pois o próprio Xcode vai reclamar dizendo que uma Constante não pode ter seu valor alterado.",
+        "description5": "Portanto, se você criou uma Constante e depois percebeu que na verdade seu valor pode variar, mude-a para uma Variável, assim poderá alterar seu valor quantas vezes quiser!",
         "description6": "Teste 6",
         "description7": "Teste 7"
     }
