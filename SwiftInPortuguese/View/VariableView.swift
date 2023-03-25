@@ -57,6 +57,14 @@ struct VariableView: View {
                     Text(variableCont.description5)
                         .padding()
                         .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Text(variableCont.description6)
+                        .padding()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                    
+                    Image("varNames")
+                        .resizable()
+                        .scaledToFit()
                 }
             }
         }
